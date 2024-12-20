@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Profile Header */
+h1 {
+    color: #444;
+    font-size: 2.5rem; /* Increased font size */
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 500px;
+}
+
+/* Profile Container */
+div {
+    background-color: #fff;
+    padding: 40px; /* Increased padding */
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Larger shadow */
+    width: 400px; /* Increased width */
+}
+
+/* Profile Image */
+div img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #ddd; /* Thicker border */
+    width: 150px; /* Larger image size */
+    height: 150px; /* Ensure circular shape */
+    object-fit: cover;
+    margin-left: 120px;
+}
+
+/* Text Styles */
+p {
+    margin: 15px 0; /* Increased spacing */
+    font-size: 18px; /* Larger font size */
+    line-height: 1.8; /* Increased line height */
+}
+
+p strong {
+    color: #555;
+    font-size: 18px; /* Match text size */
+}
+
+/* Logout Button */
+button {
+    background-color: #30B852;
+    color: #fff;
+    border: none;
+    padding: 15px 20px; /* Larger button */
+    font-size: 18px; /* Larger font size */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #107229;
+}

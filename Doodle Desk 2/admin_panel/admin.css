@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 20px;
+}
+
+.admin {
+    text-align: center;
+    color: #30B852;
+}
+
+.check {
+    background-color: #30B852;
+    color: white;
+    font-size: 25px;
+}
+
+.check:hover {
+    background-color: #0c4c1b;
+}
+
+/* Form Styling */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #30B852;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #28a745;
+}
+
+/* Products Table */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    font-size: 14px;
+}
+
+th {
+    background-color: #30B852;
+    color: white;
+}
+
+td img {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Table Actions (Edit/Delete Links) */
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Message Styling */
+p {
+    font-size: 16px;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
